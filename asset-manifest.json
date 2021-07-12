@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-quotepad/static/css/main.77f40fd8.chunk.css",
+    "main.css": "/react-quotepad/static/css/main.b35b4bf0.chunk.css",
     "main.js": "/react-quotepad/static/js/main.03480206.chunk.js",
     "main.js.map": "/react-quotepad/static/js/main.03480206.chunk.js.map",
     "runtime-main.js": "/react-quotepad/static/js/runtime-main.2b77d6bf.js",
@@ -10,14 +10,14 @@
     "static/js/3.0226ac4f.chunk.js": "/react-quotepad/static/js/3.0226ac4f.chunk.js",
     "static/js/3.0226ac4f.chunk.js.map": "/react-quotepad/static/js/3.0226ac4f.chunk.js.map",
     "index.html": "/react-quotepad/index.html",
-    "static/css/main.77f40fd8.chunk.css.map": "/react-quotepad/static/css/main.77f40fd8.chunk.css.map",
+    "static/css/main.b35b4bf0.chunk.css.map": "/react-quotepad/static/css/main.b35b4bf0.chunk.css.map",
     "static/js/2.3432ad9a.chunk.js.LICENSE.txt": "/react-quotepad/static/js/2.3432ad9a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-quotepad/static/media/paper-texture.ea1b1995.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2b77d6bf.js",
     "static/js/2.3432ad9a.chunk.js",
-    "static/css/main.77f40fd8.chunk.css",
+    "static/css/main.b35b4bf0.chunk.css",
     "static/js/main.03480206.chunk.js"
   ]
 }
