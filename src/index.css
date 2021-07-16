@@ -92,7 +92,7 @@
 
 /* ----- Info Text ----- */
 .info-container {
-  width: 550px;
+  width: 23em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,7 +111,7 @@
 
 /* ----- Quote Pad ----- */
 .quote-pad {
-  width: 550px;
+  width: 23em;
   background-image: linear-gradient(#958574, #685b4d);
   border-radius: .5em;
   padding-bottom: 1.2em;
@@ -153,6 +153,7 @@
   border: none;
   border: 5px solid transparent;
   border-radius: .2em;
+  outline: none;
   cursor: pointer;
   margin-right: .65em;
 }
@@ -221,6 +222,7 @@ input:focus::placeholder {
   font-family: 'Oleo Script Swash Caps';
   font-size: 1em;
   letter-spacing: 1px;
+  outline: none;
   margin: .25em;
 }
 
@@ -345,6 +347,7 @@ input:focus::placeholder {
   align-items: center;
   justify-content: space-evenly;
   padding: .1em .25em;
+  outline: none;
 }
 
 .message-button:hover {
@@ -352,7 +355,23 @@ input:focus::placeholder {
 }
 
 /* ----- Media Queries ----- */
+@media screen and (max-width: 1600px) {
+  .container {
+    font-size: 20px;
+  }  
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+  .container {
+    font-size: 30px;
+  }  
+}
+
 @media screen and (max-width: 600px) {
+  .container {
+    font-size: 22px;
+  }
+
   .info-container {
     width: 90vw;
   }
